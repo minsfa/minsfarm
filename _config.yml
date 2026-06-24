@@ -1,0 +1,21 @@
+title: minsfarm
+subtitle: Tree Farming Automation Lab
+description: 공개 가능한 나무 재배, 스마트 모니터링, 자동화, 웹서비스 개발 기록
+url: "https://minsfa.github.io"
+baseurl: "/minsfarm"
+lang: ko-KR
+timezone: Asia/Seoul
+author:
+  name: MS-ykmin
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+header_pages:
+  - about.md
+  - log.md
+  - privacy.md
+exclude:
+  - README.md
+  - node_modules
+  - vendor
